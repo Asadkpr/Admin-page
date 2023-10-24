@@ -1,0 +1,70 @@
+.overview li span {
+  color: #0e9f6e;
+  font-size: 16px;
+  font-weight: 500;
+}
+.page li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.sale li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.authentication li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.message li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.docs li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.help li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.components li span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ant-layout .ant-layout-sider > .ant-layout-sider-zero-width-trigger {
+  background-color: white;
+  top: 12px;
+  left: 19px;
+  /* z-index: 80; */
+  position: fixed;
+}
+
+@media (max-width: 991px) {
+  .ant-layout .ant-layout-sider {
+    height: 100vh;
+    min-height: 100vh;
+    overflow: auto;
+    background-color: white;
+    /* margin-top: -80px; */
+    top: 46px;
+    z-index: 33;
+    flex: 0 0 0px;
+    max-width: 0px;
+    min-width: 0px;
+    width: 0px;
+    position: absolute;
+    min-height: 100vh;
+  }
+}
+.abo-layout {
+  overflow: auto;
+  min-height: calc(100vh - 99px);
+}
+.ant-layout-sider-children {
+  background-color: white;
+  /* min-height: 100vh;*/
+}
+.ant-table-cell{
+    white-space: nowrap;
+}
